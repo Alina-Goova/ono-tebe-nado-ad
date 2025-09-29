@@ -1,1 +1,460 @@
-/* место для вашего кода */
+body{
+  position: relative;
+}
+
+header, main, footer {
+  width: 1100px;
+  height: 293px;
+  position: relative;
+  overflow: hidden;
+  color: black;
+  font-size: 18px;
+  font-family: "Raleway";
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: 0px;
+}
+
+.box1 {
+  width: 240px;
+  height: 98px;
+  top: 95px;
+  left: 810px;
+  position: absolute;
+}
+
+.number, .email, .address, .line1, .line2 {
+  margin: 3px;
+}
+
+.email1 {
+  color: black;
+  text-decoration: none;
+}
+
+.line1 {
+  position: absolute;
+  width: 130px;
+  height: 0px;
+  top: 21px;
+  border: 1px solid #000000;
+}
+
+.line2 {
+  position: absolute;
+  width: 130px;
+  height: 0px;
+  top: 45px;
+  border: 1px solid #000000;
+}
+
+.box2 {
+  width: 392px;
+  height: 22px;
+  top: 133px;
+  left: 50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 13px;
+  display: inline-flex;
+}
+
+.aboutAuction, .posmotretLoty, .main, .ListMarker {
+  margin: 0px;
+}
+
+.ListMarker {
+  box-sizing: border-box;
+  width: 6px;
+  height: 6px;
+  border: 0.5px solid #000000;
+  border-radius: 50%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.line3 {
+  position: absolute;
+  width: 151px;
+  height: 0px;
+  left: 99px;
+  top: 21px;
+  border: 1px solid #000000;
+}
+
+.line4 {
+  position: absolute;
+  width: 111px;
+  height: 0px;
+  left: 277px;
+  top: 21px;
+  border: 1px solid #000000;
+}
+
+.logo {
+  width: 148px;
+  height: 105px;
+  top: 92px;
+  left: 478px;
+  position: absolute;  
+}
+
+
+
+main {
+  height: 2555px;
+  position: relative;
+  overflow: hidden;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin: 0px;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 1100px;
+  height: 757px;
+}
+
+.LotusFlower {
+  height: 757px;
+}
+
+.Overlay {
+  width: 1100px;
+  height: 757px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  opacity: 0.60;
+  background: black;
+}
+
+.title {
+  position: absolute;
+  width: 1000px;
+  height: 385px;
+  left: 50px;
+  top: 165px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.it {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.you {
+  position: absolute;
+  left: 330.5px;
+  top: 145px;
+}
+
+.need {
+  position: absolute;
+  left: 613px;
+  top: 270px;
+}
+
+.rect {
+  box-sizing: border-box;
+  position: absolute;
+  width: 256px;
+  height: 51px;
+  left: 794px;
+  top: 656px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #FFFFFF;
+}
+
+.makeBet {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+.auction-text {
+  position: absolute;
+  left: 50px;
+  top: 668px;
+  height: 28px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.space1 {
+  padding: calc(19.8px/2);
+}
+
+.space2 {
+  padding: calc(17.6px/2);
+}
+
+.space3 {
+  padding: calc(24.2px/2);
+}
+
+
+
+.lots {
+  height: 723px;
+  width: 1052px;
+  left: 24px;
+  top: 937px;
+  position: absolute;
+  font-family: "Raleway";
+  word-wrap: break-word;
+  margin: 0px;
+  font-style: normal;
+}
+
+.title-lots {
+  left: 40px;
+  top: 0px;
+  position: absolute;
+  color: black;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.frame1, .frame2, .frame3 {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  width: 334px;
+  height: 596px;
+  position: absolute;
+  overflow: hidden;
+  top: 74px;
+}
+
+.frame1 {
+  left: 0px;
+}
+
+.frame2 {
+  left: 359px;
+}
+
+.frame3 {
+  left: 718px;
+}
+
+.lot-photo {
+  height: 596px;
+}
+
+.lot-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.60;
+  background: black;
+}
+
+.text {
+  position: absolute;
+  margin-bottom: 0px;
+  bottom: 48px;
+  left: 40px;
+  right: 40px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.subtitle {
+  position: absolute;
+  margin-top: 0px;
+  left: 40px;
+  right: 40px;
+  top: 48px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.seeMore {
+  position: absolute;
+  width: 192px;
+  height: 23px;
+  left: 40px;
+  bottom: 0px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.line7 {
+  position: absolute;
+  bottom: -2px;
+  left: 40px;
+  border: 1px solid #000000;
+  width: 191px;
+  height: 0px;
+}
+
+
+
+.about {
+  height: 595px;
+  width: 1052px;
+  left: 24px;
+  top: 1780px;
+  position: absolute;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  left: 47px;
+  top: 35px;
+  background: #000000;
+  border-radius: 50%;
+}
+
+.logo-white {
+  height: 114px;
+}
+
+.about-text {
+  position: absolute;
+  width: 693px;
+  height: 449px;
+  left: 359px;
+  top: 133px;
+}
+
+.aboutTitle {
+  margin-top: 0px;
+  margin-left: 3px;
+  position: absolute;
+  width: 291px;
+  height: 47px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.aboutText1, .aboutText2 {
+  position: absolute;
+  left: 0px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0px;
+}
+
+.aboutText1 {
+  top: 150px;
+  width: 688px;
+  height: 120px;
+}
+
+.aboutText2 {
+  top: 294px;
+  height: 168px;
+}
+
+
+
+footer {
+  height: 180px;
+}
+
+.box3 {
+  width: 265px;
+  height: 98px;
+  top: 0px;
+  left: 50px;
+  position: absolute;
+}
+
+.box4 {
+  width: 164px;
+  height: 64px;
+  top: 1px;
+  left: 469px;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.line5 {
+  position: absolute;
+  width: 146px;
+  height: 0px;
+  top: 42px;
+  border: 1px solid #000000;
+}
+
+.line6 {
+  position: absolute;
+  width: 107px;
+  height: 0px;
+  top: 63px;
+  border: 1px solid #000000;
+}
+
+.socials {
+  width: 240px;
+  left: 810px;
+  top: 1px;
+  height: 48px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 48px;
+  display: inline-flex;
+}
+
+.socials-img {
+  width: 48px;
+  height: 48px;
+}
