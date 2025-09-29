@@ -98,7 +98,7 @@ header, main, footer {
   height: 105px;
   top: 92px;
   left: 478px;
-  position: absolute;  
+  position: absolute;
 }
 
 
@@ -115,7 +115,7 @@ main {
 .cover {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   width: 1100px;
   height: 757px;
 }
@@ -249,7 +249,7 @@ main {
 .frame1, .frame2, .frame3 {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   width: 334px;
   height: 596px;
   position: absolute;
@@ -344,7 +344,7 @@ main {
 .circle {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   position: absolute;
   width: 240px;
   height: 240px;
